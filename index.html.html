@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SOLARWERKMS – Regional · Fair · Sauber</title>
+  <meta name="description" content="SOLARWERKMS – Ihr regionaler Partner für Photovoltaik. Werden Sie zu Ihren eigenen Stadtwerken.">
+  <style>
+    :root { --bg:#f8fafc; --white:#ffffff; --border:#e2e8f0; --text:#0f172a; --muted:#475569; --accent:#0d9488; }
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,sans-serif;color:var(--text);background:linear-gradient(#fff,var(--bg))}
+    .container{max-width:1100px;margin:0 auto;padding:0 16px} .row{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .grid2{display:grid;grid-template-columns:repeat(1,1fr);gap:24px}@media (min-width:900px){.grid2{grid-template-columns:1.1fr 0.9fr}}
+    .grid3{display:grid;grid-template-columns:repeat(1,1fr);gap:16px}@media (min-width:900px){.grid3{grid-template-columns:repeat(3,1fr)}}
+    .grid4{display:grid;grid-template-columns:repeat(1,1fr);gap:16px}@media (min-width:900px){.grid4{grid-template-columns:repeat(4,1fr)}}
+    .header{position:sticky;top:0;backdrop-filter:blur(6px);background:rgba(255,255,255,.75);border-bottom:1px solid var(--border);z-index:50}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:800} .logo{display:inline-block;width:32px;height:32px;background:var(--accent);border-radius:12px;box-shadow:inset 0 0 10px rgba(0,0,0,.15)}
+    .logo.small{width:24px;height:24px;border-radius:10px} .accent{color:var(--accent)}
+    .nav a{color:var(--muted);text-decoration:none;margin:0 8px}.nav a:hover{color:var(--accent)}
+    .btn{border-radius:12px;padding:10px 16px;text-decoration:none;display:inline-block;border:1px solid var(--border)} .btn.small{padding:8px 12px}
+    .btn-primary{background:var(--accent);color:#fff;border-color:var(--accent)} .btn-primary:hover{filter:brightness(.95)}
+    .btn-ghost{background:#fff} .hero{padding:64px 0} .eyebrow{text-transform:uppercase;letter-spacing:.1em;color:#0f766e;font-weight:600;font-size:12px}
+    h1{font-size:40px;line-height:1.1;margin:8px 0 0}.lead{margin:12px 0 0;font-size:18px;color:var(--muted)} .action-row{display:flex;gap:12px;margin-top:16px}
+    .hint{margin-top:8px;color:#64748b;font-size:13px}
+    .sample{align-self:center;background:rgba(255,255,255,.9);border:1px solid var(--border);border-radius:16px;padding:16px;box-shadow:0 8px 20px rgba(0,0,0,.06)}
+    .sample .card-head{font-size:11px;text-transform:uppercase;color:#64748b;letter-spacing:.08em}.sample .card-title{font-weight:800;font-size:22px;margin-top:2px}.sample .card-sub{color:#475569}
+    .section{padding:56px 0}.section.alt{background:#fff} h2{font-size:28px;margin:0 0 6px 0}.muted{color:var(--muted)} .small{font-size:13px}
+    .cards .card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:16px;box-shadow:0 4px 10px rgba(0,0,0,.04)} .cards .card:hover{box-shadow:0 8px 20px rgba(0,0,0,.06)}
+    .dot{width:12px;height:12px;background:var(--accent);border-radius:999px;margin-bottom:8px}
+    .tall .tag{text-transform:uppercase;font-weight:700;color:#0f766e;font-size:12px}.tall .kwp{font-size:40px;font-weight:800}.tall .kwp span{font-size:18px;font-weight:700}
+    .tall .sub{color:var(--muted);margin:2px 0}.tall .price{font-size:24px;font-weight:800;color:#0f766e;margin:8px 0}.list{color:#475569;font-size:14px;margin-top:8px}
+    .step{width:28px;height:28px;border-radius:999px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;margin-bottom:6px}
+    .form input,.form textarea{width:100%;padding:12px 14px;border:1px solid var(--border);border-radius:12px}
+    .form .full{grid-column:1/-1}.footer{border-top:1px solid var(--border);padding:20px 0;background:#fff}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container row">
+      <div class="brand"><span class="logo"></span> <strong>SOLARWERK</strong><span class="accent">MS</span></div>
+      <nav class="nav">
+        <a href="#pakete">Pakete</a>
+        <a href="#ablauf">Ablauf</a>
+        <a href="#vorteile">Vorteile</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <a href="#kontakt" class="btn btn-primary small">Angebot erhalten</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container grid2">
+        <div>
+          <p class="eyebrow">Regional · Fair · Sauber</p>
+          <h1>Werden Sie zu Ihren <span class="accent">eigenen Stadtwerken</span></h1>
+          <p class="lead">Nutzen Sie ungenutzte Dachflächen und erzeugen Sie Ihren eigenen Strom. Mit SOLARWERKMS senken Sie Kosten, steigern den Immobilienwert und investieren in eine saubere Zukunft – mit regionalem Service.</p>
+          <div class="action-row">
+            <a href="#pakete" class="btn btn-primary">Pakete ansehen</a>
+            <a href="#kontakt" class="btn btn-ghost">Kostenloses Angebot</a>
+          </div>
+          <div class="hint">0 % MwSt. für Privatkunden (§12 Abs. 3 UStG). TÜV/VDE‑geprüfte Komponenten.</div>
+        </div>
+        <div class="sample">
+          <div class="card-head">Beispielangebot</div>
+          <div class="card-title">10 kWp · ab 14.900 €</div>
+          <div class="card-sub">≈ 10.000 kWh/Jahr · inkl. Montage</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="vorteile" class="section">
+      <div class="container">
+        <h2>Warum SOLARWERKMS?</h2>
+        <p class="muted">Qualität vom regionalen Fachbetrieb – fair kalkuliert, sauber montiert, nachhaltig gedacht.</p>
+        <div class="grid4 cards">
+          <div class="card">
+            <div class="dot"></div>
+            <h3>Regional & nah</h3>
+            <p>Eigene Teams aus der Region. Kurze Wege, schnelle Termine.</p>
+          </div>
+          <div class="card">
+            <div class="dot"></div>
+            <h3>Saubere Montage</h3>
+            <p>Staubarme Arbeit, aufgeräumte Kabelwege, klare Dokumentation.</p>
+          </div>
+          <div class="card">
+            <div class="dot"></div>
+            <h3>Zukunftssicher</h3>
+            <p>TÜV/VDE‑geprüfte Komponenten, EEG-konforme Inbetriebnahme, MaStR & ZEREZ.</p>
+          </div>
+          <div class="card">
+            <div class="dot"></div>
+            <h3>Fair kalkuliert</h3>
+            <p>Preis‑Leistungs‑Sieger: Qualitätsanlage zum fairen Paketpreis.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pakete" class="section alt">
+      <div class="container">
+        <h2>Schlüsselfertige Pakete</h2>
+        <p class="muted">inkl. Montage, Netzbetreiber‑Meldung, Inbetriebnahme, MaStR/ZEREZ & Monitoring‑App</p>
+        <div class="grid3 cards">
+          <div class="card tall">
+            <div class="tag">Regional Start</div>
+            <div class="kwp">5 <span>kWp</span></div>
+            <div class="sub">kleine Dächer / Paare</div>
+            <div class="muted">≈ 5.000 kWh/Jahr</div>
+            <div class="price">ab 10.500 €</div>
+            <div class="list">
+              • TÜV/VDE‑geprüfte Module & WR<br>
+              • Aufdach‑Montage & AC/DC‑Schutz<br>
+              • Dokumentationsmappe & App
+            </div>
+          </div>
+          <div class="card tall">
+            <div class="tag">Regional Plus</div>
+            <div class="kwp">7 <span>kWp</span></div>
+            <div class="sub">Familien / Standard‑EFH</div>
+            <div class="muted">≈ 7.000 kWh/Jahr</div>
+            <div class="price">ab 12.900 €</div>
+            <div class="list">
+              • TÜV/VDE‑geprüfte Module & WR<br>
+              • Aufdach‑Montage & AC/DC‑Schutz<br>
+              • Dokumentationsmappe & App
+            </div>
+          </div>
+          <div class="card tall">
+            <div class="tag">Regional Max</div>
+            <div class="kwp">10 <span>kWp</span></div>
+            <div class="sub">EFH mit E‑Auto / WP</div>
+            <div class="muted">≈ 10.000 kWh/Jahr</div>
+            <div class="price">ab 14.900 €</div>
+            <div class="list">
+              • TÜV/VDE‑geprüfte Module & WR<br>
+              • Aufdach‑Montage & AC/DC‑Schutz<br>
+              • Dokumentationsmappe & App
+            </div>
+          </div>
+        </div>
+        <div class="muted small">* Referenzstandort Mitteldeutschland, Südausrichtung, 30–35° Dachneigung.</div>
+      </div>
+    </section>
+
+    <section id="ablauf" class="section">
+      <div class="container">
+        <h2>So werden Sie zu Ihren eigenen Stadtwerken</h2>
+        <div class="grid4 cards">
+          <div class="card">
+            <div class="step">1</div>
+            <h3>Vorprüfung</h3>
+            <p>Dachfoto/Luftbild & Zählerschrank – Festpreisangebot in 24–48 h.</p>
+          </div>
+          <div class="card">
+            <div class="step">2</div>
+            <h3>Freigabe & Meldung</h3>
+            <p>Komponentenfreigabe, Netzbetreiber‑Meldung & Terminierung.</p>
+          </div>
+          <div class="card">
+            <div class="step">3</div>
+            <h3>Montage</h3>
+            <p>Sauber in 1–3 Tagen. Elektriker‑Inbetriebnahme & Messprotokolle.</p>
+          </div>
+          <div class="card">
+            <div class="step">4</div>
+            <h3>Übergabe</h3>
+            <p>MaStR/ZEREZ, App‑Monitoring & Dokumentationsmappe – Service vor Ort.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class="section alt">
+      <div class="container">
+        <h2>Kostenloses Angebot anfordern</h2>
+        <p class="muted">Senden Sie uns kurz Ihre Daten – wir melden uns in 24–48 Stunden mit einem Festpreisangebot.</p>
+        <form class="grid2 form">
+          <input placeholder="Vor- & Nachname">
+          <input placeholder="E-Mail">
+          <input class="full" placeholder="Adresse / PLZ / Ort">
+          <textarea class="full" rows="4" placeholder="Kurze Info: Dach (Ziegel/Neigung), Zählerschrank‑Foto vorhanden?"></textarea>
+          <button type="button" class="btn btn-primary full">Anfrage senden</button>
+        </form>
+        <div class="muted small">Oder direkt: 0151 52940044 · info@solarwerkms.de</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container row">
+      <div class="brand"><span class="logo small"></span> <strong>SOLARWERK</strong><span class="accent">MS</span></div>
+      <div class="muted small">© SOLARWERKMS – Regionaler Photovoltaik‑Fachbetrieb</div>
+      <div class="small"><a href="#">Impressum</a> · <a href="#">Datenschutz</a></div>
+    </div>
+  </footer>
+</body>
+</html>
